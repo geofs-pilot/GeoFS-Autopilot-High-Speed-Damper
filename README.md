@@ -1,2 +1,2 @@
-# GeoFS-Autopilot-Speed-Damper
+# GeoFS-Autopilot-High-Speed-Damper
 A script that detects pitch oscillations caused by autopilot in GeoFS, which are common on community contributed aircraft such as the 767-400. It then damps the autopilot pitch PID to counteract this, and once the speed drops to a safe level, the original PIDs are restored. This was orginally developed as an addition to my [overpowered engines](https://github.com/geofs-pilot/geofs-overpowered-engines) addon, since it would often cause oscillations while crusing at very high speeds.
