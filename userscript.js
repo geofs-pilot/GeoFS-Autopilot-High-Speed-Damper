@@ -191,7 +191,8 @@ function monitorAutopilotOscillation() {
 //     console.log(geofs.autopilot.PIDs.bankAngle._kp)
 //     console.log("------------------------------------------------")
 
-// }, 500);const waitForGeoFS = setInterval(() => {
+// }, 500);
+const waitForGeoFS = setInterval(() => {
     if (typeof geofs !== "undefined" && geofs.aircraft && geofs.aircraft.instance) {
         clearInterval(waitForGeoFS);
         setTimeout(() => {
